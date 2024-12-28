@@ -73,6 +73,7 @@ foreach ($response["subusers"] as $subuser) {
             <strong><i class="fas fa-shield-alt mr-1"></i> Management</strong>
 
             <p class="text-muted">
+              <button type="button" class="btn btn-danger btn-sm" onclick=">Reinstall GDPS</button>
               <button type="button" class="btn btn-danger btn-sm" onclick=">Migrate GDPS</button>
               <button type="button" class="btn btn-danger btn-sm" onclick=">Fix GDPS</button>
               <button type="button" class="btn btn-danger btn-sm" onclick="deleteGdps()">Delete GDPS</button>
