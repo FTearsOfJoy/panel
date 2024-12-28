@@ -9,7 +9,7 @@ require "sidebar.php";
   <div class="container-fluid">
     <div class="card card-primary">
       <div class="card-header">
-        <h3 class="card-title">Create GDPS</h3>
+        <h3 class="card-title">Create a GDPS!</h3>
       </div>
       <form action="#">
         <div class="card-body">
@@ -23,7 +23,7 @@ require "sidebar.php";
             <div class="col-md-6">
               <div class="form-group">
                 <label id="customUrlUpdate" for="custom_url">GDPS Custom URL (.ps.fhgdps.com)</label>
-                <input id="customUrl" class="form-control" id="custom_url" placeholder="Example: greencatgdps">
+                <input id="customUrl" class="form-control" id="custom_url" placeholder="Example: yourgdpsname">
               </div>
             </div>
             <div>
@@ -78,7 +78,7 @@ require "sidebar.php";
         if (!response["success"]) {
           $(document).Toasts('create', {
             class: 'bg-danger',
-            title: 'GDPSFH',
+            title: 'NXGDPSFH',
             body: response["message"]
           })
           return
@@ -86,8 +86,8 @@ require "sidebar.php";
 
         $(document).Toasts('create', {
           class: 'bg-success',
-          title: 'GDPSFH',
-          body: "GDPS creation starting! Redirecting soon..!"
+          title: 'NXGDPSFH',
+          body: "Creating GDPS..."
         })
 
         setTimeout(function(){
