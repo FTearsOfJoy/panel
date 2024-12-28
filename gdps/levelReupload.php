@@ -20,11 +20,11 @@ require "sidebar.php";
               <div class="row">
                 <div class="form-group">
                   <label for="name">Level ID</label>
-                  <input class="form-control" id="level_id" placeholder="Example: 4284013">
+                  <input class="form-control" id="level_id" placeholder="Example: 97150044">
                 </div>
               </div>
               <div class="row">
-                <button id="reupload_button" type="button" class="btn btn-info btn-sm" onclick="reuploadLevel()">Reupload</button>
+                <button id="reupload_button" type="button" class="btn btn-info btn-sm" onclick="reuploadLevel()">Reupload Level</button>
               </div>
             </div>
           </div>
