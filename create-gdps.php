@@ -78,7 +78,7 @@ require "sidebar.php";
         if (!response["success"]) {
           $(document).Toasts('create', {
             class: 'bg-danger',
-            title: 'NXGDPSFH',
+            title: 'GDPSFH',
             body: response["message"]
           })
           return
@@ -86,7 +86,7 @@ require "sidebar.php";
 
         $(document).Toasts('create', {
           class: 'bg-success',
-          title: 'NXGDPSFH',
+          title: 'GDPSFH',
           body: "Creating GDPS..."
         })
 
