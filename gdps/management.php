@@ -73,8 +73,8 @@ foreach ($response["subusers"] as $subuser) {
             <strong><i class="fas fa-shield-alt mr-1"></i> Management</strong>
 
             <p class="text-muted">
-              <button type="button" class="btn btn-danger btn-sm disabled">Reset GDPS</button>
-              <button type="button" class="btn btn-danger btn-sm disabled">Disable GDPS</button>
+              <button type="button" class="btn btn-danger btn-sm" onclick=">Migrate GDPS</button>
+              <button type="button" class="btn btn-danger btn-sm" onclick=">Fix GDPS</button>
               <button type="button" class="btn btn-danger btn-sm" onclick="deleteGdps()">Delete GDPS</button>
             </p>
           </div>
@@ -236,7 +236,7 @@ foreach ($response["subusers"] as $subuser) {
         $(document).Toasts('create', {
           class: 'bg-success',
           title: 'GDPSFH',
-          body: "Password copied!"
+          body: "Password Copied."
         })
       }
     })
@@ -268,7 +268,7 @@ foreach ($response["subusers"] as $subuser) {
         $(document).Toasts('create', {
           class: 'bg-success',
           title: 'GDPSFH',
-          body: "Password changed!"
+          body: "Password Changed."
         })
       }
     })
